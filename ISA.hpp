@@ -56,7 +56,7 @@ namespace LouiEriksson {
 				
 					size_t ctr(0U);
 					
-					State state;
+					State state{s_DefaultState};
 					Calculate(_height, state, ctr);
 					
 					for (size_t i = 0U; i < s_A_Val.size(); ++i) {
@@ -81,7 +81,7 @@ namespace LouiEriksson {
 			catch (const std::exception& e) {
 				result = std::nullopt;
 				
-				std::cerr << e.what() std::endl;
+				std::cerr << e.what() << std::endl;
 			}
 			
 			return result;
