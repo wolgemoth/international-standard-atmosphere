@@ -10,7 +10,7 @@
 namespace LouiEriksson {
 	
 	/**
-	 * @mainpage Version 1.0.0
+	 * @mainpage Version 1.0.1
 	 * @class ISA
 	 * @brief Class that represents the International Standard Atmosphere (ISA)
 	 *
